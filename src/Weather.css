@@ -1,0 +1,33 @@
+.Weather {
+  border: 1px solid #f25287;
+  display: block;
+  margin: 5px auto;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: left;
+  color: #343a40;
+}
+
+.Weather form {
+  margin: 0 5px 0 0;
+}
+
+.Weather h1 {
+  margin: 5px 0 0 0;
+}
+
+.Weather ul {
+    list-style-type: none;
+    padding: 10px 0 0 0;
+    margin: 0;
+}
+
+.Weather .temperature {
+  font-size: 84px;
+  font-weight: 400;
+}
+
+.Weather .col-5 {
+  padding: 10px;
+}
+
