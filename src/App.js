@@ -12,7 +12,7 @@ function App() {
         <Weather />
         <footer>
           This project was coded by{" "}
-          <a href="https://www.linkedin.com/in/jordan-barbo-bb2473a8/" target="_blank">
+          <a href="https://www.linkedin.com/in/jordan-barbo-bb2473a8/" target="_blank" rel="noreferrer">
           Jordan Barbo
           </a>
           {" "}and is open-sourced on GitHub
