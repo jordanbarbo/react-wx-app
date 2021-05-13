@@ -15,7 +15,9 @@ export default function Weather() {
       humidity: response.data.main.humidity,
       wind: response.data.wind.speed,
       city: response.data.name,
-      description: response.data.weather[0].description
+      description: response.data.weather[0].description,
+      maxTemp: response.data.main.temp_max,
+      minTemp: response.data.main.temp_min
     })
   }
 
@@ -59,9 +61,9 @@ export default function Weather() {
             <div className="col-5">
               <ReactAnimatedWeather icon="CLEAR_DAY" color="#f25287" />
               <ul>
+                <li>{Math.round(weatherData.maxTemp)} / {Math.round(weatherData.minTemp)}</li>
                 <li>Wind: {Math.round(weatherData.wind)} km/hr </li>
                 <li>Humidity: {weatherData.humidity}% </li>
-                <li>Precipitation: </li>
               </ul>         
             </div>
           </div>
@@ -77,7 +79,4 @@ export default function Weather() {
 
   return "Loading...";
   }
-
-  
-
 }   
