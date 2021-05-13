@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./Weather.css";
-import ReactAnimatedWeather from "react-animated-weather";
+
 
 
 export default function Weather() {
@@ -59,7 +59,6 @@ export default function Weather() {
               </div>
             </div>
             <div className="col-5">
-              <ReactAnimatedWeather icon="CLEAR_DAY" color="#f25287" />
               <ul>
                 <li>{Math.round(weatherData.maxTemp)} / {Math.round(weatherData.minTemp)}</li>
                 <li>Wind: {Math.round(weatherData.wind)} km/hr </li>
