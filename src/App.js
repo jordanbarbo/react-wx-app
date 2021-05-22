@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <div className="container">
         <h2>Weather App</h2>
-        <Weather />
+        <Weather defaultCity="London" />
         <footer>
           This project was coded by{" "}
           <a href="https://www.linkedin.com/in/jordan-barbo-bb2473a8/" target="_blank" rel="noreferrer">
