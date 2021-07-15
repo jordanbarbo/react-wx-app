@@ -1,7 +1,9 @@
 .App {
   text-align: center;
-  max-width: 400px;
+  max-width: 575px;
   margin: 0 auto;
+  padding: 50px;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 .App footer {
