@@ -22,6 +22,12 @@ export default function WeatherInfo(props) {
             </div>
             <div className="col-5">
               <ul>
+                <li>
+                    <img 
+                      src={props.data.iconUrl}
+                      alt="Clear"
+                    />
+                </li>
                 <li>{Math.round(props.data.maxTemp)} / {Math.round(props.data.minTemp)}</li>
                 <li>Wind: {Math.round(props.data.wind)} km/hr </li>
                 <li>Humidity: {props.data.humidity}% </li>
