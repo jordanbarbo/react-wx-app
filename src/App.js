@@ -8,14 +8,16 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <h2>Weather App</h2>
         <Weather defaultCity="London" />
         <footer>
           This project was coded by{" "}
           <a href="https://www.linkedin.com/in/jordan-barbo-bb2473a8/" target="_blank" rel="noreferrer">
           Jordan Barbo
           </a>
-          {" "}and is open-sourced on GitHub
+          {" "}and is open-sourced on{" "} 
+          <a href="https://github.com/jordanbarbo/react-wx-app" target="_blank" rel="noreferrer">
+          GitHub
+          </a>
         </footer>
       </div>
     </div>
