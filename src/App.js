@@ -16,7 +16,11 @@ function App() {
           </a>
           {" "}and is open-sourced on{" "} 
           <a href="https://github.com/jordanbarbo/react-wx-app" target="_blank" rel="noreferrer">
-          GitHub
+          GitHub{" "}
+          </a>
+          and hosted on{" "}
+          <a href="https://angry-brattain-0e5d84.netlify.app" target="_blank" rel="noreferrer">
+            Netlify
           </a>
         </footer>
       </div>
