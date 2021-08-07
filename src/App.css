@@ -1,12 +1,13 @@
 .App {
   text-align: center;
-  max-width: 575px;
+  max-width: 625px;
   margin: 0 auto;
   padding: 50px;
   font-family: 'Fjalla One', sans-serif;
+  background-color: black;
 }
 
 .App footer {
   font-size: 10px;
-  color: #005F99;
+  color: white;
 }

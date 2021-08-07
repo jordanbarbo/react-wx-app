@@ -3,9 +3,10 @@
   display: block;
   margin: 5px auto;
   padding: 10px;
-  border-radius: 20px;
+  border-radius: 51px;
   text-align: left;
-  color: #005F99;
+  color: white;
+  box-shadow:  16px 16px 32px #FF449F;
 }
 
 .Weather form {

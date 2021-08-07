@@ -8,3 +8,11 @@ body {
 code {
   font-family: 'Fjalla One', sans-serif;
 }
+
+html {
+  background: black;
+}
+
+#root {
+  background: black;
+}
